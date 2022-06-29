@@ -7,7 +7,7 @@ public class twoDarray_sorted_binary
         int[][] arr = {{1, 2, 3},
                        {4, 5, 6},
                        {7, 8, 9}};
-        int[] arr2=BinarySearch(arr,1);
+        int[] arr2=BinarySearch(arr,6);
         System.out.println(Arrays.toString(arr2));
     }
     // return the index: greatest number <= target
@@ -47,7 +47,7 @@ public class twoDarray_sorted_binary
                 start = mid + 1;
             } else {
                 // ans found
-                return new int[]{floor(arr,target),mid};
+                return new int[]{row,mid};
             }
         }
         return new int[]{-1,-1};
