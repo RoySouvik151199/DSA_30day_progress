@@ -4,6 +4,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="first index" options="--add-modules java.base" />
       <module name="largestelementfreaterthantarget" options="--add-modules java.base" />
+      <module name="leetcode 1346. Check If N and Its Double Exist" options="--add-modules java.base" />
       <module name="twoSumleetcode167" options="--add-modules java.base" />
     </option>
   </component>
